@@ -1,0 +1,7 @@
+{
+  "name": "Namii - Acompañamiento y Cuidado",
+  "description": "Espacio de acompañamiento, orientación y cuidado para familias con enfoque cercano e integral.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

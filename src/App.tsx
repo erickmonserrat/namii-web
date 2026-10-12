@@ -5,19 +5,23 @@ import { NamiiInicioTablet } from "./screens/NamiiInicioTablet/NamiiInicioTablet
 
 const router = createBrowserRouter([
   {
-    path: "/*",
-    element: <NamiiInicioMvil />,
+    path: "/",
+    element: <NamiiInicio />,
   },
   {
-    path: "/namii-u183-inicio-u183-movil",
-    element: <NamiiInicioMvil />,
+    path: "/namii-u183-inicio",
+    element: <NamiiInicio />,
   },
   {
     path: "/namii-u183-inicio-u183-tablet",
     element: <NamiiInicioTablet />,
   },
   {
-    path: "/namii-u183-inicio",
+    path: "/namii-u183-inicio-u183-movil",
+    element: <NamiiInicioMvil />,
+  },
+  {
+    path: "*",
     element: <NamiiInicio />,
   },
 ]);

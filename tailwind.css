@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:var(--bold-font-weight),var(--small-font-weight),400,800,500,700|Quicksand:400,700,var(--button-font-weight)|Pacifico:400");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,19 +11,11 @@
   textarea {
     @apply appearance-none bg-transparent border-0 outline-none;
   }
-}
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
   .all-unset {
     all: unset;
   }
 }
-
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:var(--bold-font-weight),var(--small-font-weight),400,800,500,700|Quicksand:400,700,var(--button-font-weight)|Pacifico:400");
 
 :root {
   --alert-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
